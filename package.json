@@ -7,13 +7,18 @@
     "react",
     "hooks"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
   "files": [
-    "dist",
+    "lib",
     "README.md"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -27,8 +32,10 @@
     "typescript": "^4.4.3"
   },
   "scripts": {
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p tsconfig-build.json",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs -p tsconfig-build.json",
+    "test": "CI=true react-scripts test --passWithNoTests"
   },
   "eslintConfig": {
     "extends": [
