@@ -28,7 +28,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "CI=true react-scripts test"
   },
   "eslintConfig": {
     "extends": [
