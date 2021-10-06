@@ -6,7 +6,7 @@ React hook for utility.
 
 
 ### Hooks
-- []()
+- [useDocumentTitle](src/lib/useDocumentTitle/readme.md)
 
 
 ### Contributors
