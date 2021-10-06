@@ -2,7 +2,7 @@ React Hok
 ======================
 [![Build Status](https://app.travis-ci.com/agung96tm/react-hok.svg?branch=main)](https://app.travis-ci.com/agung96tm/react-hok)
 
-React hook for utility.
+React hook for common purpose.
 
 
 ### Hooks
