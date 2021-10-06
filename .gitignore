@@ -26,4 +26,4 @@ react-app-env.d.ts
 
 # editor and build folder
 .idea/
-lib/
+/lib
