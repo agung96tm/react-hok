@@ -7,6 +7,7 @@ React hook for common purpose.
 
 ### Hooks
 - [useDocumentTitle](src/lib/useDocumentTitle/readme.md)
+- [useScrollToTop](src/lib/useScrollToTop/readme.md)
 
 
 ### Contributors
