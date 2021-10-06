@@ -1,12 +1,13 @@
 {
   "name": "react-hok",
   "version": "0.0.1",
-  "description": "React hook for utility",
-  "author": "Agung Yuliyanto",
+  "description": "React hook for common purpose",
+  "author": "Agung Yuliyanto <agung.96tm@gmail.com>",
   "keywords": [
     "react",
     "hooks"
   ],
+  "license": "MIT",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
