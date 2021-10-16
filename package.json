@@ -1,12 +1,13 @@
 {
   "name": "react-hok",
-  "version": "0.0.1",
-  "description": "React hook for utility",
-  "author": "Agung Yuliyanto",
+  "version": "0.0.2",
+  "description": "React hook for common purpose",
+  "author": "Agung Yuliyanto <agung.96tm@gmail.com>",
   "keywords": [
     "react",
     "hooks"
   ],
+  "license": "MIT",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
+    "@testing-library/react-hooks": "^7.0.2",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.24",
     "@types/node": "^12.20.27",
